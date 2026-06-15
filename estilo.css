@@ -1,0 +1,20 @@
+/* O asterisco aplica a regra no site INTEIRO */
+* {
+box-sizing: border-box; /* Organiza o cálculo de tamanho das caixas */
+margin: 0; /* Tira as folgas do lado de fora */
+padding: 0; /* Tira as folgas do lado de dentro */
+}
+/* O ponto busca aquela etiqueta "class" que escrevemos dentro do HTML */
+.cabecalho {
+padding: 15px 25px; /* Dá um espaço para o texto respirar lá dentro */
+background-color: #4a90e2; /* Pinta o fundo do topo de azul */
+color: white; /* Deixa as letras brancas */
+}
+.cartao {
+width: 260px; /* Define a largura do retângulo do pinguim */
+height: 200px; /* Define a altura do retângulo do pinguim */
+margin: 20px; /* Afasta o cartão de outros elementos do site */
+}
+.cartao-imagem {
+width: 100%; /* Obriga a imagem a caber certinha dentro do cartão */
+}
